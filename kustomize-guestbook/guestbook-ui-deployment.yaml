@@ -13,6 +13,8 @@ spec:
       labels:
         app: guestbook-ui
     spec:
+      imagePullSecrets:
+      - name: gcr-cred
       containers:
       - image: gcr.io/pegakienvios-staging/ks-guestbook-demo:0.1
         name: guestbook-ui
