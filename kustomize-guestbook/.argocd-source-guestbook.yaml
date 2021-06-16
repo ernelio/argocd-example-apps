@@ -1,0 +1,3 @@
+kustomize:
+  images:
+  - gcr.io/pegakienvios-staging/ks-guestbook-demo:0.2
